@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menulis artikel dua kolom dengan Latex (bibliography) | Bertutur Angka Berbicara Bahasa</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-142688878-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Depan</a></li>
+      
+      <li><a href="/profil/">Profil</a></li>
+      
+      <li><a href="/publikasi/">Publikasi</a></li>
+      
+      <li><a href="/stat/">Stat</a></li>
+      
+      <li><a href="/rancob/">Rancob</a></li>
+      
+      <li><a href="/software/">Software</a></li>
+      
+      <li><a href="/post/">Post</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Menulis artikel dua kolom dengan Latex (bibliography)</span></h1>
+
+<h2 class="date">2016/05/16</h2>
+</div>
+
+<main>
+<p>Artikel/ paper yang akan dibuat biasanya menggunakan format tertentu, misalkan jumlah kolom. Artikel yang akan dijadikan contoh kali ini adalah artikel dengan jumlah kolom dua. Pembuatan artikel untuk jurnal tertentu, biasanya lebih mudah karena penerbit akan memberikan templete dokumennya baik dalam document atapun dalam tex.</p>
+<p>Format artikel contoh berikut diambil dari templete di Elsevier untuk jurnal IEEE. Hasil yang diharapkan dari dokumen adalah dua kolom. Daftar pustaka (bibliography) menjadi bagian penting yang harus diperhatikan untuk artikel jurnal IEEE ini menggunakan format huruf. Gaya selingkung (sitasi) yang lain, misalnya chicago (menampilkan nama, tahun, baru judul) menggunakan paket <code>\bibligraphystyle{chicago}</code>.</p>
+<p>Menghasilkan dokumen tex yang paling mudah memang dengan cara menggunakan templete yang sudah ada, kemudian memodifikasinya sesuai dengan selera kita. Langkah-langkah untuk membuat artikel 2 kolom dengan daftar pustaka adalah sebagai berikut:</p>
+<ol style="list-style-type: decimal">
+<li>Download ketiga file ini:</li>
+</ol>
+<ul>
+<li>file <a href="https://drive.google.com/file/d/0B_95difK55wDMHVlZlRpcEFKSGM/view">templete latex</a></li>
+<li>file <a href="https://drive.google.com/file/d/0B_95difK55wDS0VBOGd6MkpfUnc/view">daftar pustaka (dengan ekstensi .bib)</a></li>
+<li>file <a href="https://drive.google.com/file/d/0B_95difK55wDcmlwNXJ2MzRiNU0/view">gambar (untuk profil penulis jika ingin menggunakan gambar, ini juga harus di download sebagai contoh)</a></li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Letakkan ketiga file ini dalam satu folder.</li>
+<li>Buka file templete (<code>paper1.tex</code>) dengan <code>texmaker</code>. Ini adalah file contoh yang dapat dimodifikasi nantinya.</li>
+<li>Jalankan dokumen latex dengan cara pilih</li>
+</ol>
+<p><code>Options &gt; configure texmakers &gt; quick build &gt;</code> (pilih yang) <code>pdflatex + bibtex + pdflatex(2x) + view pdf</code> (yang nomor 2) kemudian pilih <code>OK</code>. (jika membuat artikel tanpa daftar pustaka sebaiknya pada <code>options</code> dipilih yang nomor satu karena prosesnya lebih cepat).</p>
+<p><img src="https://drive.google.com/uc?id=0B_95difK55wDVnpFOUxOTEM1ZW8" /><!-- --></p>
+<p>Kenapa harus dipilih yang ada <code>bibtex</code> nya, karena untuk bibliography (daftar pustaka) tidak dapat dijalankan dengan <code>pdflatex</code> tetapi dengan <code>bibtex</code>. Jadi <code>bibtex</code> harus ada didalam proses agar daftar pustaka muncul dalam dokumen.</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Jalankan dokumen latex dengan memilih tombol panah dikiri <code>quick build</code>.</li>
+<li>Cek <a href="https://drive.google.com/file/d/0B_95difK55wDcG5ycVZxSmcxS2c/view">hasilnya</a></li>
+</ol>
+<iframe src="https://drive.google.com/file/d/0B_95difK55wDcG5ycVZxSmcxS2c/preview" width="800" height="800">
+</iframe>
+<ol start="7" style="list-style-type: decimal">
+<li>Jika hasilnya sudah muncul, silahkan memodifikasi templete sesuai dengan keinginan kita.</li>
+</ol>
+<p>Catatan: banyak templete yang dapat digunakan (paper, disertasi, buku, dll), karena menggunakan templete lebih mudah dan dapat digunakan sebagai media belajar.</p>
+
+</main>
+
+  <footer>
+  
+<script src="/js/math-code.js"></script>
+
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script src="/js/center-img.js"></script>
+  
+  <hr/>
+  Dibuat dengan Hugo (Xmin)  | <a href="https://osf.io/g2dy4/">OSF</a> | email: budiaji_at_untirta_dot_ac_dot_id
+  
+  </footer>
+  </body>
+</html>
+

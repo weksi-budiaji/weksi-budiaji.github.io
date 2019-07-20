@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bibliography on Bertutur Angka Berbicara Bahasa</title>
+    <link>/tags/bibliography/</link>
+    <description>Recent content in bibliography on Bertutur Angka Berbicara Bahasa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Mon, 16 May 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/bibliography/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Menulis artikel dua kolom dengan Latex (bibliography)</title>
+      <link>/software/2016-05-16-dua-kolom-bibliography/</link>
+      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/software/2016-05-16-dua-kolom-bibliography/</guid>
+      <description>Artikel/ paper yang akan dibuat biasanya menggunakan format tertentu, misalkan jumlah kolom. Artikel yang akan dijadikan contoh kali ini adalah artikel dengan jumlah kolom dua. Pembuatan artikel untuk jurnal tertentu, biasanya lebih mudah karena penerbit akan memberikan templete dokumennya baik dalam document atapun dalam tex.
+Format artikel contoh berikut diambil dari templete di Elsevier untuk jurnal IEEE. Hasil yang diharapkan dari dokumen adalah dua kolom. Daftar pustaka (bibliography) menjadi bagian penting yang harus diperhatikan untuk artikel jurnal IEEE ini menggunakan format huruf.</description>
+    </item>
+    
+  </channel>
+</rss>

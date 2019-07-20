@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>latex on Bertutur Angka Berbicara Bahasa</title>
+    <link>/tags/latex/</link>
+    <description>Recent content in latex on Bertutur Angka Berbicara Bahasa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Mon, 16 May 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Menulis artikel dua kolom dengan Latex (bibliography)</title>
+      <link>/software/2016-05-16-dua-kolom-bibliography/</link>
+      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/software/2016-05-16-dua-kolom-bibliography/</guid>
+      <description>Artikel/ paper yang akan dibuat biasanya menggunakan format tertentu, misalkan jumlah kolom. Artikel yang akan dijadikan contoh kali ini adalah artikel dengan jumlah kolom dua. Pembuatan artikel untuk jurnal tertentu, biasanya lebih mudah karena penerbit akan memberikan templete dokumennya baik dalam document atapun dalam tex.
+Format artikel contoh berikut diambil dari templete di Elsevier untuk jurnal IEEE. Hasil yang diharapkan dari dokumen adalah dua kolom. Daftar pustaka (bibliography) menjadi bagian penting yang harus diperhatikan untuk artikel jurnal IEEE ini menggunakan format huruf.</description>
+    </item>
+    
+    <item>
+      <title>Struktur dokumen Latex</title>
+      <link>/software/2016-04-30-struktur-latex/</link>
+      <pubDate>Sat, 30 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/software/2016-04-30-struktur-latex/</guid>
+      <description>Dokumen \(\TeX\) (\(\LaTeX\)) memiliki struktur yang berbeda dibandingkan dengan dokumen lain. Struktur tersebut terdiri atas kepala dokumen, tubuh dokumen, dan akhir dokumen. Bagian-bagian tersebut akan dibagi-bagi lagi menjadi bagian yang lebih kecil.
+Kepala dokumen terdiri atas kelas dokumen, paket-paket yang akan digunakan dalam dokumen, judul dokumen, dan penulis dokumen. Kepala dokumen ini sangat penting karena disinilah dokumen latex akan didefinisi misalnya ukuran font, batas tepi kiri dan kanan, lebar dan panjang isi teks, jumlah kolom yang digunakan, orientasi halaman (landscape atau portrait), dll.</description>
+    </item>
+    
+    <item>
+      <title>Cara menginstall Latex</title>
+      <link>/software/2016-04-19-install-latex/</link>
+      <pubDate>Tue, 19 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/software/2016-04-19-install-latex/</guid>
+      <description>Sebelum memutuskan untuk menginstall \(\TeX\) (\(\LaTeX\)) di komputer atau laptop kita, sebaiknya kita ketahui dulu apa itu latex, untuk apa, dan apakah memang perlu kita menggunakan latex.
+Apa itu Latex? Latex adalah sistem pengaturan cara pengetikan dokumen. Latex merupakan software bebas yang dapat diunduh tanpa harus membayar, tetapi kita dapat berkontribusi dengan memberikan donasi. Sejarahnya, Donald Knuth (Standford University) mulai mengembangkan sistem pemrosesan dokumen yang disebut “Tex dan Metafont” pada tahun 1977.</description>
+    </item>
+    
+  </channel>
+</rss>

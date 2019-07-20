@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>manipulasi on Bertutur Angka Berbicara Bahasa</title>
+    <link>/tags/manipulasi/</link>
+    <description>Recent content in manipulasi on Bertutur Angka Berbicara Bahasa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Tue, 14 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/manipulasi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Manipulasi data frame di R</title>
+      <link>/software/2019-05-14-manipulasi-data-frame-di-r/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/software/2019-05-14-manipulasi-data-frame-di-r/</guid>
+      <description>Manipulasi data frameSalah satu kelas variabel di R adalah data frame. Kelas ini yang sering digunakan untuk dianalisis. Misalnya data iris dari paket base.
+data(&amp;quot;iris&amp;quot;)head(iris)## Sepal.Length Sepal.Width Petal.Length Petal.Width Species## 1 5.1 3.5 1.4 0.2 setosa## 2 4.9 3.0 1.4 0.2 setosa## 3 4.7 3.2 1.3 0.2 setosa## 4 4.6 3.1 1.5 0.2 setosa## 5 5.0 3.6 1.4 0.2 setosa## 6 5.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Operasi dasar dan tipe variabel di R | Bertutur Angka Berbicara Bahasa</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-142688878-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Depan</a></li>
+      
+      <li><a href="/profil/">Profil</a></li>
+      
+      <li><a href="/publikasi/">Publikasi</a></li>
+      
+      <li><a href="/stat/">Stat</a></li>
+      
+      <li><a href="/rancob/">Rancob</a></li>
+      
+      <li><a href="/software/">Software</a></li>
+      
+      <li><a href="/post/">Post</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Operasi dasar dan tipe variabel di R</span></h1>
+
+<h2 class="date">2019/03/02</h2>
+</div>
+
+<main>
+<div id="operasi-dasar" class="section level1">
+<h1>Operasi dasar</h1>
+<p>Software <code>R</code> dapat digunakan untuk menyelesaikan masalah dalam matematika misalnya penjumlahan, perkalian dan seterusnya. Penjumlahan dapat dilakukan dengan tanda operasi <code>+</code>, pengurangan adalah <code>-</code>, perkalian menggunakan <code>*</code>, dan pembagian berupa <code>/</code>. Berikut contohnya:</p>
+<p>Penjumlahan:</p>
+<pre class="r"><code>1+1</code></pre>
+<pre><code>## [1] 2</code></pre>
+<p>Pengurangan:</p>
+<pre class="r"><code>5-4</code></pre>
+<pre><code>## [1] 1</code></pre>
+<p>Perkalian:</p>
+<pre class="r"><code>2*3</code></pre>
+<pre><code>## [1] 6</code></pre>
+<p>Pembagian:</p>
+<pre class="r"><code>9/3</code></pre>
+<pre><code>## [1] 3</code></pre>
+<p>Operasi yang lain misalnya:</p>
+<p>Eksponen dengan menggunakan <code>^</code>:</p>
+<pre class="r"><code>3^2</code></pre>
+<pre><code>## [1] 9</code></pre>
+<p>Akar bilangan dengan menggunakan <code>sqrt</code>:</p>
+<pre class="r"><code>sqrt(16)</code></pre>
+<pre><code>## [1] 4</code></pre>
+<p>Modulus (sisa nilai atas pembagian dengan bilangan tertentu) dengan menggunakan <code>%%</code>:</p>
+<pre class="r"><code>10%%5</code></pre>
+<pre><code>## [1] 0</code></pre>
+<pre class="r"><code>11%%5</code></pre>
+<pre><code>## [1] 1</code></pre>
+<pre class="r"><code>13%%5</code></pre>
+<pre><code>## [1] 3</code></pre>
+</div>
+<div id="penggunaan-variabel" class="section level1">
+<h1>Penggunaan variabel</h1>
+<p>Varibel digunakan untuk menyimpan data. Nilai variabel dapat diubah-ubah sesuai kebutuhan pengguna. Variabel dalam <code>R</code> <em>case-sensitif</em> artinya penggunaan huruf besar dan kecil akan dianggap dua variable yang berbeda, <code>a</code> berbeda dengan <code>A</code>. Misalnya, barisan nilai dari 1 sampai dengan 10 disimpan di variabel <code>a</code>.</p>
+<pre class="r"><code>1:10</code></pre>
+<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<pre class="r"><code>a &lt;- 1:10</code></pre>
+<p>Jika variabel <code>a</code> dicetak, maka akan muncul nilai dari 1 sampai dengan 10. Jika pengguna salah misalnya menuliskan <code>A</code> bukan <code>a</code>, maka kesalahan akan muncul karena bahasa <code>R</code> <em>case-sensitive</em>.</p>
+<pre class="r"><code>a</code></pre>
+<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<pre class="r"><code>print(a)</code></pre>
+<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<pre><code>&gt; A
+Error: object &#39;A&#39; not found</code></pre>
+<p>Variabel yang telah dibuat dapat diganti nilainya. Nilai terakhir yang dimasukkan menjadi nilai dari variabel. Misalnya, variabel <code>b</code> awalnya adalah barisan nilai dari 11 sampai dengan 20 kemudian diganti dengan barisan nilai dari 5 sampai dengan 11. Nilai <code>b</code> berubah menjadi nilai terakhir yang dimasukkan. Jika variabel <code>b</code> digunakan nilai terakhir yang digunakan.</p>
+<pre class="r"><code>b &lt;- 11:20
+b</code></pre>
+<pre><code>##  [1] 11 12 13 14 15 16 17 18 19 20</code></pre>
+<pre class="r"><code>b &lt;- 5:11
+b</code></pre>
+<pre><code>## [1]  5  6  7  8  9 10 11</code></pre>
+<p>Misalnya, variabel <code>b</code> dikalikan dengan <code>2</code>, maka yang dikalikan adalah barisan nilai dari 5 sampai dengan 11 (nilai <code>b</code> terakhir), bukan barisan nilai 11 sampai dengan 20.</p>
+<pre class="r"><code>b*2</code></pre>
+<pre><code>## [1] 10 12 14 16 18 20 22</code></pre>
+<p>Ada beberapa cara membuat variabel:</p>
+<p>Menggunakan tanda <code>&lt;-</code> atau <code>-&gt;</code></p>
+<pre class="r"><code>x &lt;- c(1, 2, 3, 5, 7)
+x</code></pre>
+<pre><code>## [1] 1 2 3 5 7</code></pre>
+<pre class="r"><code>c(4, 6, 8, 9) -&gt; y
+y</code></pre>
+<pre><code>## [1] 4 6 8 9</code></pre>
+<p>Menggunakan <em>assign</em></p>
+<pre class="r"><code>assign(&quot;z&quot;, c(1, 2, 3, 5, 7))
+z</code></pre>
+<pre><code>## [1] 1 2 3 5 7</code></pre>
+<p>Meskipun menggunakan <code>=</code> dapat digunakan untuk membuat variabel, tetapi tidak disarankan karena dapat membingungkan saat bekerja dengan operasi <em>logical</em>. Penulis lebih suka menggunakan tanda <code>&lt;-</code> untuk membuat variabel.</p>
+<pre class="r"><code>p = c(1, 2, 3, 5, 7)
+p</code></pre>
+<pre><code>## [1] 1 2 3 5 7</code></pre>
+</div>
+<div id="tipe-data-pada-variabel" class="section level1">
+<h1>Tipe data pada variabel</h1>
+<p>Setiap variabel memiliki tipe data yang selalu melekat (<em>inherits</em>). Beberapa tipe data (<em>class</em>) variabel antara lain:</p>
+<p>Numeric:</p>
+<pre class="r"><code>d &lt;- c(1)
+d</code></pre>
+<pre><code>## [1] 1</code></pre>
+<pre class="r"><code>class(d)</code></pre>
+<pre><code>## [1] &quot;numeric&quot;</code></pre>
+<p>Integer:</p>
+<pre class="r"><code>e &lt;- as.integer(1)
+e</code></pre>
+<pre><code>## [1] 1</code></pre>
+<pre class="r"><code>class(e)</code></pre>
+<pre><code>## [1] &quot;integer&quot;</code></pre>
+<p>Character:</p>
+<pre class="r"><code>f &lt;- letters[1]
+f</code></pre>
+<pre><code>## [1] &quot;a&quot;</code></pre>
+<pre class="r"><code>class(f)</code></pre>
+<pre><code>## [1] &quot;character&quot;</code></pre>
+<p>Logical:</p>
+<pre class="r"><code>g &lt;- 1 &lt; 5
+g</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>class(g)</code></pre>
+<pre><code>## [1] &quot;logical&quot;</code></pre>
+<p>Factor:</p>
+<pre class="r"><code>h &lt;- as.factor(rep(letters[1:3], 3))
+h</code></pre>
+<pre><code>## [1] a b c a b c a b c
+## Levels: a b c</code></pre>
+<pre class="r"><code>class(h)</code></pre>
+<pre><code>## [1] &quot;factor&quot;</code></pre>
+</div>
+<div id="struktur-data" class="section level1">
+<h1>Struktur data</h1>
+<div id="vector" class="section level2">
+<h2>Vector</h2>
+<p><em>Vector</em> dalam <code>R</code> sebanding dengan vektor baris secara matematis, artinya <em>vector</em> pada <code>R</code> hanya terdiri atas 1 baris dan banyak kolom. Variabel <code>h</code> pada contoh diatas adalah contoh dari <em>factor vector</em>.</p>
+<pre class="r"><code>h</code></pre>
+<pre><code>## [1] a b c a b c a b c
+## Levels: a b c</code></pre>
+<pre class="r"><code>class(h)</code></pre>
+<pre><code>## [1] &quot;factor&quot;</code></pre>
+</div>
+<div id="matrix" class="section level2">
+<h2>Matrix</h2>
+<p><em>Matrix</em> dalam <code>R</code> sebanding dengan matriks secara matematis, artinya <em>matrix</em> pada <code>R</code> terdiri atas baris dan kolom. Ingat bahwa vektor baris sama dengan matriks dengan hanya 1 baris dan vektor kolom adalah matriks yang hanya memiliki satu kolom.</p>
+<pre class="r"><code>mat &lt;- matrix(1.5:8.5, 2, 4)
+mat</code></pre>
+<pre><code>##      [,1] [,2] [,3] [,4]
+## [1,]  1.5  3.5  5.5  7.5
+## [2,]  2.5  4.5  6.5  8.5</code></pre>
+<pre class="r"><code>class(mat)</code></pre>
+<pre><code>## [1] &quot;matrix&quot;</code></pre>
+<p>Nilai (<em>class</em>) elemen pada <em>matrix</em> hanya dapat berupa <em>numeric</em>, <em>integer</em> atau <em>logical</em>, sehingga matriks dapat berupa <em>numerical matrix</em>, <em>integer matrix</em>, <em>logical matrix</em> atau gabungan dari ketiga <em>class</em> tersebut.</p>
+<p>Logical matrix:</p>
+<pre class="r"><code>matlog &lt;- matrix(1:9 &lt; 5, 3, 3)
+matlog</code></pre>
+<pre><code>##      [,1]  [,2]  [,3]
+## [1,] TRUE  TRUE FALSE
+## [2,] TRUE FALSE FALSE
+## [3,] TRUE FALSE FALSE</code></pre>
+<pre class="r"><code>class(matlog)</code></pre>
+<pre><code>## [1] &quot;matrix&quot;</code></pre>
+<p>Mixed matrix:</p>
+<pre class="r"><code>matgab &lt;- matrix(0, 3, 3)
+matgab[1,] &lt;- 1.5:3.5  #baris 1 adalah numerical
+matgab[2,] &lt;- 1:3  #baris 2 adalah integer
+matgab[3,] &lt;- 1:3 &lt; 2  #baris 3 adalah logical
+matgab</code></pre>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]  1.5  2.5  3.5
+## [2,]  1.0  2.0  3.0
+## [3,]  1.0  0.0  0.0</code></pre>
+<pre class="r"><code>class(matgab)</code></pre>
+<pre><code>## [1] &quot;matrix&quot;</code></pre>
+</div>
+<div id="array" class="section level2">
+<h2>Array</h2>
+<p><em>Matrix</em> dapat disebut dengan <em>array</em> dengan dimensi 2 (karena terdiri atas baris dan kolom), sehingga <em>array</em> pada <code>R</code> merupakan <em>multidimensional matrix</em>. Misalnya <em>array</em> dengan dimensi <code>2</code>, <code>4</code>, <code>3</code>, dapat dibuat dengan cara:</p>
+<pre class="r"><code>arrayx &lt;- array(1:3, dim = c(2,4,3))
+arrayx</code></pre>
+<pre><code>## , , 1
+## 
+##      [,1] [,2] [,3] [,4]
+## [1,]    1    3    2    1
+## [2,]    2    1    3    2
+## 
+## , , 2
+## 
+##      [,1] [,2] [,3] [,4]
+## [1,]    3    2    1    3
+## [2,]    1    3    2    1
+## 
+## , , 3
+## 
+##      [,1] [,2] [,3] [,4]
+## [1,]    2    1    3    2
+## [2,]    3    2    1    3</code></pre>
+<pre class="r"><code>class(arrayx)</code></pre>
+<pre><code>## [1] &quot;array&quot;</code></pre>
+<p>Seperti halnya dengan <em>matrix</em>, <em>array</em> hanya dapat diisi variabel dengan kelas <em>numerical</em>, <em>integer</em>, dan <em>logical</em>.</p>
+</div>
+<div id="data-frame" class="section level2">
+<h2>Data frame</h2>
+<p><em>Data frame</em> dalam <code>R</code> sama dengan matriks secara format, artinya <em>data frame</em> pada <code>R</code> terdiri atas baris dan kolom. Perbedaan dengan <em>matrix</em> adalah elemen dari <em>data frame</em> dapat berupa <em>character</em> atau pun <em>factor</em> yang tidak akan pernah muncul pada <em>matrix</em>.</p>
+<pre class="r"><code>dat &lt;- data.frame(x1 = a[-10], x2 = h)
+dat</code></pre>
+<pre><code>##   x1 x2
+## 1  1  a
+## 2  2  b
+## 3  3  c
+## 4  4  a
+## 5  5  b
+## 6  6  c
+## 7  7  a
+## 8  8  b
+## 9  9  c</code></pre>
+<pre class="r"><code>class(dat)</code></pre>
+<pre><code>## [1] &quot;data.frame&quot;</code></pre>
+<p>Perhatikan bahwa variabel <em>dat</em> terdiri atas 9 baris dan 2 kolom. Kolom pertama adalah <code>x1</code> yang berasal dari <em>integer vector</em> dan kolom kedua (<code>x2</code>) berasal dari <em>factor vector</em> sehingga keduanya dapat digabungkan pada sebuah <em>data frame</em>. Jika keduanya dipaksa digabungkan menjadi sebuah <em>matrix</em>, maka <code>R</code> akan mengubah kelas variabel <code>h</code> (kolom kedua) sehingga tidak lagi menjadi kelas <em>factor</em>.</p>
+<pre class="r"><code>matdat &lt;- matrix(c(a[-10], h), 9, 2)
+matdat</code></pre>
+<pre><code>##       [,1] [,2]
+##  [1,]    1    1
+##  [2,]    2    2
+##  [3,]    3    3
+##  [4,]    4    1
+##  [5,]    5    2
+##  [6,]    6    3
+##  [7,]    7    1
+##  [8,]    8    2
+##  [9,]    9    3</code></pre>
+<pre class="r"><code>class(matdat)</code></pre>
+<pre><code>## [1] &quot;matrix&quot;</code></pre>
+</div>
+<div id="list" class="section level2">
+<h2>List</h2>
+<p><em>List</em> merupakan struktur data yang paling bebas pada <code>R</code>. Semua kelas variabel dapat digabungkan pada list, misalnya variabel <code>a</code> (<em>integer</em>), <code>h</code> (<em>factor</em>), <code>dat</code> (<em>data frame</em>), <code>mat</code> (<em>matrix</em>).</p>
+<pre class="r"><code>ll &lt;- list(a, h, dat, mat)
+ll</code></pre>
+<pre><code>## [[1]]
+##  [1]  1  2  3  4  5  6  7  8  9 10
+## 
+## [[2]]
+## [1] a b c a b c a b c
+## Levels: a b c
+## 
+## [[3]]
+##   x1 x2
+## 1  1  a
+## 2  2  b
+## 3  3  c
+## 4  4  a
+## 5  5  b
+## 6  6  c
+## 7  7  a
+## 8  8  b
+## 9  9  c
+## 
+## [[4]]
+##      [,1] [,2] [,3] [,4]
+## [1,]  1.5  3.5  5.5  7.5
+## [2,]  2.5  4.5  6.5  8.5</code></pre>
+<pre class="r"><code>class(ll)</code></pre>
+<pre><code>## [1] &quot;list&quot;</code></pre>
+<p>Bahkan, <em>list</em> dapat berupa <em>list</em> yang lain. Misalnya <em>list</em> <code>ll</code> dimasukkan kedalam <em>list</em> baru, dengan variabel yang lain (<code>a</code> dan <code>h</code>).</p>
+<pre class="r"><code>ll2 &lt;- list(a, h, ll)
+ll2</code></pre>
+<pre><code>## [[1]]
+##  [1]  1  2  3  4  5  6  7  8  9 10
+## 
+## [[2]]
+## [1] a b c a b c a b c
+## Levels: a b c
+## 
+## [[3]]
+## [[3]][[1]]
+##  [1]  1  2  3  4  5  6  7  8  9 10
+## 
+## [[3]][[2]]
+## [1] a b c a b c a b c
+## Levels: a b c
+## 
+## [[3]][[3]]
+##   x1 x2
+## 1  1  a
+## 2  2  b
+## 3  3  c
+## 4  4  a
+## 5  5  b
+## 6  6  c
+## 7  7  a
+## 8  8  b
+## 9  9  c
+## 
+## [[3]][[4]]
+##      [,1] [,2] [,3] [,4]
+## [1,]  1.5  3.5  5.5  7.5
+## [2,]  2.5  4.5  6.5  8.5</code></pre>
+<pre class="r"><code>class(ll2)</code></pre>
+<pre><code>## [1] &quot;list&quot;</code></pre>
+</div>
+</div>
+<div id="operasi-variabel" class="section level1">
+<h1>Operasi variabel</h1>
+<p>Operasi dasar dapat diterapkan pada variabel jika tipe datanya sesuai. Misalnya:</p>
+<p><em>numerical/ logical/ integer vector</em> dengan <em>numerical/ logical/ integer vector</em>:</p>
+<pre class="r"><code>a2 &lt;- 11.5:20.5
+class(a2)</code></pre>
+<pre><code>## [1] &quot;numeric&quot;</code></pre>
+<pre class="r"><code>class(a)</code></pre>
+<pre><code>## [1] &quot;integer&quot;</code></pre>
+<pre class="r"><code>a</code></pre>
+<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<pre class="r"><code>a2</code></pre>
+<pre><code>##  [1] 11.5 12.5 13.5 14.5 15.5 16.5 17.5 18.5 19.5 20.5</code></pre>
+<pre class="r"><code>a+a2</code></pre>
+<pre><code>##  [1] 12.5 14.5 16.5 18.5 20.5 22.5 24.5 26.5 28.5 30.5</code></pre>
+<p>Panjang vektor yang dioperasikan harus sama, jika tidak akan ada <em>warning</em> karena vektor yang lebih pendek nilainya akan diulang.</p>
+<pre><code>&gt; a + b
+ [1]  6  8 10 12 14 16 18 13 15 17
+Warning message:
+In a + b : longer object length is not a multiple of shorter object length</code></pre>
+<p>Penjumlahan, pengurangan, perkalian matriks dengan konstanta:</p>
+<pre class="r"><code>mat</code></pre>
+<pre><code>##      [,1] [,2] [,3] [,4]
+## [1,]  1.5  3.5  5.5  7.5
+## [2,]  2.5  4.5  6.5  8.5</code></pre>
+<pre class="r"><code>mat+10</code></pre>
+<pre><code>##      [,1] [,2] [,3] [,4]
+## [1,] 11.5 13.5 15.5 17.5
+## [2,] 12.5 14.5 16.5 18.5</code></pre>
+<pre class="r"><code>mat-2</code></pre>
+<pre><code>##      [,1] [,2] [,3] [,4]
+## [1,] -0.5  1.5  3.5  5.5
+## [2,]  0.5  2.5  4.5  6.5</code></pre>
+<pre class="r"><code>mat*2</code></pre>
+<pre><code>##      [,1] [,2] [,3] [,4]
+## [1,]    3    7   11   15
+## [2,]    5    9   13   17</code></pre>
+<p>Penjumlahan, pengurangan, perkalian matriks dengan matriks:</p>
+<pre class="r"><code>mat+mat</code></pre>
+<pre><code>##      [,1] [,2] [,3] [,4]
+## [1,]    3    7   11   15
+## [2,]    5    9   13   17</code></pre>
+<pre class="r"><code>t(mat)%*%mat</code></pre>
+<pre><code>##      [,1] [,2] [,3]  [,4]
+## [1,]  8.5 16.5 24.5  32.5
+## [2,] 16.5 32.5 48.5  64.5
+## [3,] 24.5 48.5 72.5  96.5
+## [4,] 32.5 64.5 96.5 128.5</code></pre>
+<p>Khusus perkalian matriks dengan matriks ingat <strong>aturan dimensi</strong> pada matriks!</p>
+<pre><code>&gt; mat%*%mat
+Error in mat %*% mat : non-conformable arguments</code></pre>
+</div>
+<div id="indexing" class="section level1">
+<h1>Indexing</h1>
+<p>Indexing dapat dilakukan pada variabel berupa <code>vector</code>, <code>matrix</code>, <code>data frame</code>, dan <code>list</code>.</p>
+<p>Vektor dapat diindeks dengan <code>[]</code>:</p>
+<pre class="r"><code>a</code></pre>
+<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<pre class="r"><code>a[1]    #elemen nomor 1</code></pre>
+<pre><code>## [1] 1</code></pre>
+<pre class="r"><code>a[9:10] #elemen nomor 9 sampai dengan 10</code></pre>
+<pre><code>## [1]  9 10</code></pre>
+<pre class="r"><code>a[c(1,4:5,8:9)] #elemen nomor 1, 4, 5, 8, dan 9</code></pre>
+<pre><code>## [1] 1 4 5 8 9</code></pre>
+<p>Matriks diindeks menggunakan <code>[,]</code>. Penggunaan <em>drop = FALSE</em> bertujuan untuk mempertahankan kelas variabel tetap sebuah matriks.</p>
+<pre class="r"><code>mat</code></pre>
+<pre><code>##      [,1] [,2] [,3] [,4]
+## [1,]  1.5  3.5  5.5  7.5
+## [2,]  2.5  4.5  6.5  8.5</code></pre>
+<pre class="r"><code>mat[1,2]  #elemen baris 1 kolom 2</code></pre>
+<pre><code>## [1] 3.5</code></pre>
+<pre class="r"><code>mat[1:2,3:4] #elemen baris 1 dan 2, kolom 3 dan 4</code></pre>
+<pre><code>##      [,1] [,2]
+## [1,]  5.5  7.5
+## [2,]  6.5  8.5</code></pre>
+<pre class="r"><code>mat[,2] #semua elemen kolom 2</code></pre>
+<pre><code>## [1] 3.5 4.5</code></pre>
+<pre class="r"><code>mat[,2, drop = FALSE] #semua elemen kolom 2/ vektor kolom</code></pre>
+<pre><code>##      [,1]
+## [1,]  3.5
+## [2,]  4.5</code></pre>
+<pre class="r"><code>mat[1,] #semua elemen baris 1</code></pre>
+<pre><code>## [1] 1.5 3.5 5.5 7.5</code></pre>
+<p>Penggunaan <em>drop = FALSE</em> dapat digunakan untuk membuat vektor baris.</p>
+<pre class="r"><code>matb &lt;- mat[1,] #ambil elemen matriks pada baris 1 saja
+matbd &lt;- mat[1,,drop = FALSE] 
+matb</code></pre>
+<pre><code>## [1] 1.5 3.5 5.5 7.5</code></pre>
+<pre class="r"><code>matbd</code></pre>
+<pre><code>##      [,1] [,2] [,3] [,4]
+## [1,]  1.5  3.5  5.5  7.5</code></pre>
+<pre class="r"><code>class(matb)</code></pre>
+<pre><code>## [1] &quot;numeric&quot;</code></pre>
+<pre class="r"><code>class(matbd)</code></pre>
+<pre><code>## [1] &quot;matrix&quot;</code></pre>
+<p>Begitu pula dengan vektor kolom.</p>
+<pre class="r"><code>matk &lt;- mat[,1] #ambil elemen matriks pada kolom 1 saja
+matkd &lt;- mat[,1, drop = FALSE]
+matk</code></pre>
+<pre><code>## [1] 1.5 2.5</code></pre>
+<pre class="r"><code>matkd</code></pre>
+<pre><code>##      [,1]
+## [1,]  1.5
+## [2,]  2.5</code></pre>
+<pre class="r"><code>class(matk)</code></pre>
+<pre><code>## [1] &quot;numeric&quot;</code></pre>
+<pre class="r"><code>class(matkd)</code></pre>
+<pre><code>## [1] &quot;matrix&quot;</code></pre>
+<p><em>array</em> diindeks seperti dengan matriks yaitu <code>[,]</code> tetapi dengan jumlah koma yang berbeda tergantung dimensi dari array. <em>drop = FALSE</em> juga dapat digunakan untuk mempertahankan kelas variabel agar tetap <em>array</em>.</p>
+<pre class="r"><code>arrayx</code></pre>
+<pre><code>## , , 1
+## 
+##      [,1] [,2] [,3] [,4]
+## [1,]    1    3    2    1
+## [2,]    2    1    3    2
+## 
+## , , 2
+## 
+##      [,1] [,2] [,3] [,4]
+## [1,]    3    2    1    3
+## [2,]    1    3    2    1
+## 
+## , , 3
+## 
+##      [,1] [,2] [,3] [,4]
+## [1,]    2    1    3    2
+## [2,]    3    2    1    3</code></pre>
+<pre class="r"><code>arrayx[,,3] #array 3 dimensi, jumlah koma = 2</code></pre>
+<pre><code>##      [,1] [,2] [,3] [,4]
+## [1,]    2    1    3    2
+## [2,]    3    2    1    3</code></pre>
+<pre class="r"><code>arrayx[1,,3]</code></pre>
+<pre><code>## [1] 2 1 3 2</code></pre>
+<pre class="r"><code>arrayx[1,,3, drop = FALSE]</code></pre>
+<pre><code>## , , 1
+## 
+##      [,1] [,2] [,3] [,4]
+## [1,]    2    1    3    2</code></pre>
+<pre class="r"><code>arrayx[,3,3]</code></pre>
+<pre><code>## [1] 3 1</code></pre>
+<p><em>data frame</em> diindeks seperti matriks yaitu dengan menggunakan <code>[,]</code> atau menggunakan nama kolomnya (variabel).</p>
+<pre class="r"><code>dat</code></pre>
+<pre><code>##   x1 x2
+## 1  1  a
+## 2  2  b
+## 3  3  c
+## 4  4  a
+## 5  5  b
+## 6  6  c
+## 7  7  a
+## 8  8  b
+## 9  9  c</code></pre>
+<pre class="r"><code>dat[1:3,2] #elemen baris 1 sampai 3 dan kolom 2</code></pre>
+<pre><code>## [1] a b c
+## Levels: a b c</code></pre>
+<pre class="r"><code>dat$x2[1:3] #elemen baris 1 sampai 3 dan kolom 1</code></pre>
+<pre><code>## [1] a b c
+## Levels: a b c</code></pre>
+<pre class="r"><code>dat[4:8,] #elemen baris 4 sampai 8 dan semua kolom</code></pre>
+<pre><code>##   x1 x2
+## 4  4  a
+## 5  5  b
+## 6  6  c
+## 7  7  a
+## 8  8  b</code></pre>
+<p><em>list</em> diindeks menggunakan <code>[[]]</code>.</p>
+<pre class="r"><code>ll</code></pre>
+<pre><code>## [[1]]
+##  [1]  1  2  3  4  5  6  7  8  9 10
+## 
+## [[2]]
+## [1] a b c a b c a b c
+## Levels: a b c
+## 
+## [[3]]
+##   x1 x2
+## 1  1  a
+## 2  2  b
+## 3  3  c
+## 4  4  a
+## 5  5  b
+## 6  6  c
+## 7  7  a
+## 8  8  b
+## 9  9  c
+## 
+## [[4]]
+##      [,1] [,2] [,3] [,4]
+## [1,]  1.5  3.5  5.5  7.5
+## [2,]  2.5  4.5  6.5  8.5</code></pre>
+<pre class="r"><code>ll[[3]] #elemen list yang ketiga</code></pre>
+<pre><code>##   x1 x2
+## 1  1  a
+## 2  2  b
+## 3  3  c
+## 4  4  a
+## 5  5  b
+## 6  6  c
+## 7  7  a
+## 8  8  b
+## 9  9  c</code></pre>
+<pre class="r"><code>ll[[4]][,1, drop = FALSE] #elemen list yang keempat, </code></pre>
+<pre><code>##      [,1]
+## [1,]  1.5
+## [2,]  2.5</code></pre>
+<pre class="r"><code>#karena elemen keempat adalah matriks maka 
+#aturan matriks berlaku setelah tanda [[]].</code></pre>
+</div>
+<div id="subsetting" class="section level1">
+<h1>Subsetting</h1>
+<p>Subsetting digunakan untuk memilih atau mengeluarkan komponen dalam variabel. Misalnya dari data <code>dat</code> hanya diambil berdasarkan nilai kolom <code>x1</code> yang lebih kecil dari 5.</p>
+<pre class="r"><code>dat</code></pre>
+<pre><code>##   x1 x2
+## 1  1  a
+## 2  2  b
+## 3  3  c
+## 4  4  a
+## 5  5  b
+## 6  6  c
+## 7  7  a
+## 8  8  b
+## 9  9  c</code></pre>
+<pre class="r"><code>dat[dat$x1 &lt; 5,]</code></pre>
+<pre><code>##   x1 x2
+## 1  1  a
+## 2  2  b
+## 3  3  c
+## 4  4  a</code></pre>
+<p>Ambil data dari variabel <code>dat</code> yang kolom x2 nya “a” saja.</p>
+<pre class="r"><code>subset(dat, x2 == &quot;a&quot;)</code></pre>
+<pre><code>##   x1 x2
+## 1  1  a
+## 4  4  a
+## 7  7  a</code></pre>
+<p>Ambil data dari variabel <code>h</code> yang mempunyai character “a” saja.</p>
+<pre class="r"><code>h</code></pre>
+<pre><code>## [1] a b c a b c a b c
+## Levels: a b c</code></pre>
+<pre class="r"><code>h[h==&quot;a&quot;]</code></pre>
+<pre><code>## [1] a a a
+## Levels: a b c</code></pre>
+<pre class="r"><code>subset(h, h==&quot;a&quot;)</code></pre>
+<pre><code>## [1] a a a
+## Levels: a b c</code></pre>
+<p>Ambil data dari variabel <code>a</code> yang genap saja.</p>
+<pre class="r"><code>a</code></pre>
+<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<pre class="r"><code>a[a%%2==0]</code></pre>
+<pre><code>## [1]  2  4  6  8 10</code></pre>
+<pre class="r"><code>subset(a, a%%2==0)</code></pre>
+<pre><code>## [1]  2  4  6  8 10</code></pre>
+</div>
+
+</main>
+
+  <footer>
+  
+<script src="/js/math-code.js"></script>
+
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script src="/js/center-img.js"></script>
+  
+  <hr/>
+  Dibuat dengan Hugo (Xmin)  | <a href="https://osf.io/g2dy4/">OSF</a> | email: budiaji_at_untirta_dot_ac_dot_id
+  
+  </footer>
+  </body>
+</html>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mixtex on Bertutur Angka Berbicara Bahasa</title>
+    <link>/tags/mixtex/</link>
+    <description>Recent content in mixtex on Bertutur Angka Berbicara Bahasa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Tue, 19 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/mixtex/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cara menginstall Latex</title>
+      <link>/software/2016-04-19-install-latex/</link>
+      <pubDate>Tue, 19 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/software/2016-04-19-install-latex/</guid>
+      <description>Sebelum memutuskan untuk menginstall \(\TeX\) (\(\LaTeX\)) di komputer atau laptop kita, sebaiknya kita ketahui dulu apa itu latex, untuk apa, dan apakah memang perlu kita menggunakan latex.
+Apa itu Latex? Latex adalah sistem pengaturan cara pengetikan dokumen. Latex merupakan software bebas yang dapat diunduh tanpa harus membayar, tetapi kita dapat berkontribusi dengan memberikan donasi. Sejarahnya, Donald Knuth (Standford University) mulai mengembangkan sistem pemrosesan dokumen yang disebut “Tex dan Metafont” pada tahun 1977.</description>
+    </item>
+    
+  </channel>
+</rss>

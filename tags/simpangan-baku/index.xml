@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>simpangan baku on Bertutur Angka Berbicara Bahasa</title>
+    <link>/tags/simpangan-baku/</link>
+    <description>Recent content in simpangan baku on Bertutur Angka Berbicara Bahasa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Sat, 01 Dec 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/simpangan-baku/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pendugaan Standar Deviasi untuk Sampel Kecil dalam Penelitian Pertanian</title>
+      <link>/publikasi/2012-12-01-pendugaan-standar-deviasi/</link>
+      <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publikasi/2012-12-01-pendugaan-standar-deviasi/</guid>
+      <description>Budiaji, W., Suherna and Y.L.A. Salampessy. 2012. Pendugaan Standar Deviasi untuk Sampel Kecil dalam Penelitian Pertanian. Jurnal Ilmu Pertanian dan Perikanan Vol. 1 (1): 37 - 42 (Download)
+Alhamdulillah telah terbit makalah kami di Jurnal Ilmu Pertanian dan Perikanan. Makalah ini bercerita tentang perhitungan standar deviasi/ simpangan baku pada sampel kecil.
+Kami menggunakan metode simulasi untuk membandingkan perhitungan simpangan baku cara cepat (rule of thumb) dengan cara Mantel. Karya kami ini bermanfaat untuk mengidentifikasi bahwa perhitungan simpangan baku cara cepat pada sampel kecil berbias.</description>
+    </item>
+    
+  </channel>
+</rss>

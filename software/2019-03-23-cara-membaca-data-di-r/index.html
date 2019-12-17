@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cara Membaca data di R | Bertutur Angka Berbicara Bahasa</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-142688878-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Depan</a></li>
+      
+      <li><a href="/profil/">Profil</a></li>
+      
+      <li><a href="/publikasi/">Publikasi</a></li>
+      
+      <li><a href="/stat/">Stat</a></li>
+      
+      <li><a href="/rancob/">Rancob</a></li>
+      
+      <li><a href="/software/">Software</a></li>
+      
+      <li><a href="/post/">Post</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Cara Membaca data di R</span></h1>
+
+<h2 class="date">2019/03/23</h2>
+</div>
+
+<main>
+<div id="data-yang-telah-tersedia-di-r" class="section level1">
+<h1>Data yang telah tersedia di R</h1>
+<p>Saat <code>R</code> terinstal, paket <strong>datasets</strong> yang terdiri atas banyak data set juga terinstal. Untuk mengakses data set tersebut perlu tahu nama dari file dari data yang diinginkan. Perintah:</p>
+<pre class="r"><code>data()</code></pre>
+<p>akan memunculkan daftar data set yang tersedia. Setelah tahu nama data set yang ingin digunakan, diantara tanda kurung dapat dituliskan nama data set. Misalnya, data yang cukup terkenal yaitu data <code>iris</code> yang terdiri atas 150 obyek. Spesies iris: setosa, versicolor, dan virginica masing-masing 50 obyek dengan mengukur 4 variabel dari setiap spesies iris tersebut.</p>
+<pre class="r"><code>data(iris)
+head(iris)</code></pre>
+<pre><code>##   Sepal.Length Sepal.Width Petal.Length Petal.Width Species
+## 1          5.1         3.5          1.4         0.2  setosa
+## 2          4.9         3.0          1.4         0.2  setosa
+## 3          4.7         3.2          1.3         0.2  setosa
+## 4          4.6         3.1          1.5         0.2  setosa
+## 5          5.0         3.6          1.4         0.2  setosa
+## 6          5.4         3.9          1.7         0.4  setosa</code></pre>
+<p>Perintah <code>head</code> digunakan untuk melihat 6 baris pertama dari data, sedangkan <code>tail</code> untuk 6 baris terakhir.</p>
+<pre class="r"><code>tail(iris)</code></pre>
+<pre><code>##     Sepal.Length Sepal.Width Petal.Length Petal.Width   Species
+## 145          6.7         3.3          5.7         2.5 virginica
+## 146          6.7         3.0          5.2         2.3 virginica
+## 147          6.3         2.5          5.0         1.9 virginica
+## 148          6.5         3.0          5.2         2.0 virginica
+## 149          6.2         3.4          5.4         2.3 virginica
+## 150          5.9         3.0          5.1         1.8 virginica</code></pre>
+<p>Ringkasan statistik dari data juga dapat dijalankan.</p>
+<pre class="r"><code>summary(iris)</code></pre>
+<pre><code>##   Sepal.Length    Sepal.Width     Petal.Length    Petal.Width   
+##  Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100  
+##  1st Qu.:5.100   1st Qu.:2.800   1st Qu.:1.600   1st Qu.:0.300  
+##  Median :5.800   Median :3.000   Median :4.350   Median :1.300  
+##  Mean   :5.843   Mean   :3.057   Mean   :3.758   Mean   :1.199  
+##  3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800  
+##  Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500  
+##        Species  
+##  setosa    :50  
+##  versicolor:50  
+##  virginica :50  
+##                 
+##                 
+## </code></pre>
+<p>Data pada paket tertentu juga dapat digunakan, jika paket tersebut telah terinstal. Misalnya data <code>clust4</code> dari paket <code>kmed</code>.</p>
+<pre><code>install.packages(&quot;kmed&quot;)
+data(clust4, package = &quot;kmed&quot;)
+head(clust4)</code></pre>
+<pre><code>##          x1        x2 class
+## 1 11.202146  9.180266     4
+## 2  2.054706 -8.023205     3
+## 3  3.413081  0.575873     2
+## 4 -7.251199 -5.628959     1
+## 5  3.917112 -7.111772     3
+## 6 -1.318943 -3.475943     3</code></pre>
+</div>
+<div id="data-dengan-ekstensi-.txt" class="section level1">
+<h1>Data dengan ekstensi .txt</h1>
+<p>Unduh data berekstensi .txt pada <a href="https://osf.io/ybdhg/">tautan berikut</a>, kemudian letakkan file kuisioner.txt pada folder c. Cara membaca file berekstensi .txt pada <code>R</code> adalah menggunakan perintah <code>read.table</code>, kemudian diikuti alamat folder (<em>path</em>). Pemisahan setiap folder bukan menggunakan tanda \ seperti di <em>windows explorer</em> tetapi menggunakan tanda <strong>/</strong>. Jika pada file .txt ada <em>column header</em>, maka perlu ditambah <em>header = TRUE</em>.</p>
+<pre><code>kuisioner &lt;- read.table(&quot;C:/kuisioner.txt&quot;, header = TRUE)
+nrow(kuisioner)</code></pre>
+<pre><code>## [1] 33</code></pre>
+<pre><code>ncol(kuisioner)</code></pre>
+<pre><code>## [1] 28</code></pre>
+<pre><code>kuisioner[c(1:5),c(1,5,8:10)]</code></pre>
+<pre><code>##   Nama JK Usia Pendidikan PengeluaranUT
+## 1  xx1  1   50          1       4000000
+## 2  xx2  1   38          1      12000000
+## 3  xx3  1   42          1        500000
+## 4  xx4  1   31          1       4000000
+## 5  xx5  1   42          1      40000000</code></pre>
+<p>Data kuisioner terdiri atas 33 baris dan 28 kolom. Misalnya, baris 1 sampai dengan 5 ditampilkan pada variabel yang ke 1, 5, 8, 9, dan 10.</p>
+</div>
+<div id="data-dengan-ekstensi-.csv" class="section level1">
+<h1>Data dengan ekstensi .csv</h1>
+<p>Unduh data berekstensi .csv pada <a href="https://drive.google.com/open?id=1Snrkb2Z_AQUHqcnd_WY3CdrCgfFDp3Tb">tautan berikut</a>, kemudian letakkan file komoditas.csv pada folder c. Cara membaca file berekstensi .csv pada <code>R</code> adalah menggunakan perintah <code>read.csv</code>, kemudian diikuti alamat folder (<em>path</em>). Tambahan <em>row.names = 1</em> digunakan untuk memberikan nama pada baris berdasarkan kolom 1.</p>
+<pre><code>komoditas &lt;- read.csv(&quot;C:/komoditas.csv&quot;, header = TRUE, row.names = 1)
+nrow(komoditas)</code></pre>
+<pre><code>## [1] 6</code></pre>
+<pre><code>ncol(komoditas)</code></pre>
+<pre><code>## [1] 14</code></pre>
+<pre><code>komoditas[,c(7,9:10)]</code></pre>
+<pre><code>##           Egg_plant Cucumber Large_chilli_pepper
+## Curug            28       46                  13
+## Walantaka       166      432                 145
+## Cipocok        4000     3450                  60
+## Serang          400      296                   0
+## Taktakan          0     1555                  75
+## Kasemen           0        0                   0</code></pre>
+<p>Data komoditas terdiri atas 6 baris dan 14 kolom. Misalnya, hanya variabel 7, 9, dan 10 ditampilkan.</p>
+</div>
+<div id="data-dengan-ekstensi-.xls" class="section level1">
+<h1>Data dengan ekstensi .xls</h1>
+<p>Meskipun MS Exel sering digunakan untuk menyimpan data, penggunaan <em>save as</em> .xls tidak disarankan jika data ingin dianalisis dengan <code>R</code>. Cara yang paling aman adalah menyimpannya adalah dengan menggunakan format .txt atau .csv. Standar instalasi <code>R</code> tidak menyediakan fungsi untuk membaca file .xls, sehingga pengguna membutuhkan bantuan paket misalnya paket <code>readxl</code>.</p>
+<p>Unduh data berekstensi .xls pada <a href="https://drive.google.com/open?id=1oTh0YF-GI1pRdJShn7yUMnqxDYWcjCgW">tautan berikut</a>, kemudian letakkan file nilai.xls pada folder c. Cara membaca file berekstensi .xls pada <code>R</code> adalah menggunakan perintah <code>read_xls</code> dari paket <code>readxl</code>, kemudian diikuti alamat folder (<em>path</em>).</p>
+<pre><code>install.packages(&quot;readxl&quot;)
+nilai &lt;- readxl::read_xls(&quot;C:/nilai.xls&quot;)
+nilai</code></pre>
+<pre><code>## # A tibble: 10 x 3
+##      Mhs Matematika English
+##    &lt;dbl&gt;      &lt;dbl&gt;   &lt;dbl&gt;
+##  1  1.00       79.0    91.0
+##  2  2.00       69.0    67.0
+##  3  3.00       97.0    68.0
+##  4  4.00       86.0    97.0
+##  5  5.00       96.0    86.0
+##  6  6.00       99.0    80.0
+##  7  7.00       66.0    90.0
+##  8  8.00       61.0    66.0
+##  9  9.00       83.0    84.0
+## 10 10.0        60.0    79.0</code></pre>
+</div>
+
+</main>
+
+  <footer>
+  
+<script src="/js/math-code.js"></script>
+
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script src="/js/center-img.js"></script>
+  
+  <hr/>
+  Dibuat dengan Hugo (Xmin)  | <a href="https://osf.io/g2dy4/">OSF</a> | email: budiaji_at_untirta_dot_ac_dot_id
+  
+  </footer>
+  </body>
+</html>
+

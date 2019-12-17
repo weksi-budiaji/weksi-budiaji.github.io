@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>consensus on Bertutur Angka Berbicara Bahasa</title>
+    <link>/tags/consensus/</link>
+    <description>Recent content in consensus on Bertutur Angka Berbicara Bahasa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Mon, 01 Jun 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/consensus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Penerapan Consensus Clustering pada Pemetaan Ketahanan Pangan Kota Serang</title>
+      <link>/publikasi/2015-05-01-consensus-clustering/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publikasi/2015-05-01-consensus-clustering/</guid>
+      <description>Budiaji, W. 2015. Penerapan Consensus Clustering pada Pemetaan Ketahanan Pangan Kota Serang. Jurnal Ilmu Pertanian dan Perikanan Vol.4 (1): 19 - 27. (Download)
+Alhamdulillah telah terbit makalah saya di Jurnal Ilmu Pertanian dan Perikanan. Makalah ini bercerita tentang pembuatan peta ketahanan pangan di Kota Serang, Provinsi Banten .
+Saya menggunakan analisis gerombol (cluster analysis) untuk mengelompokkan kecamatan di Kota Serang berdasarkan variabel ketahanan pangan. Karya saya ini bermanfaat untuk mengetahui tingkat ketahanan pangan sehingga program ketahanan pangan dapat dititik beratkan pada lokasi-lokasi tertentu.</description>
+    </item>
+    
+  </channel>
+</rss>

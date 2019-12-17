@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>level on Bertutur Angka Berbicara Bahasa</title>
+    <link>/tags/level/</link>
+    <description>Recent content in level on Bertutur Angka Berbicara Bahasa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Sun, 12 Feb 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/level/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rancangan Percobaan</title>
+      <link>/rancob/2017-02-17-rancangan-percobaan/</link>
+      <pubDate>Sun, 12 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/rancob/2017-02-17-rancangan-percobaan/</guid>
+      <description>Rancangan percobaan/ design of experiments (DOE) perlu dibuat sebelum melakukan percobaan baik di lapangan maupun di laboratorium. Tujuan utama dari percobaan adalah untuk menduga sesuatu sehingga dibutuhkan penduga yang tidak bias dan ragam yang rendah (atau presisi yang tinggi), dengan kata lain untuk menguji hipotesis. DOE yang efektif lebih membutuhkan pemikiran yang baik tentang bidang penerapan dari DOE tersebut dibandingkan dengan perhitungan matematis dari DOE.
+Sebuah kebenaran umum bahwa DOE yang dirancang dengan baik membutuhkan analisis statistika yang lebih sederhana daripada DOE yang dirancang dengan kurang baik.</description>
+    </item>
+    
+  </channel>
+</rss>

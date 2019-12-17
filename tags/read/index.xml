@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>read on Bertutur Angka Berbicara Bahasa</title>
+    <link>/tags/read/</link>
+    <description>Recent content in read on Bertutur Angka Berbicara Bahasa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Sat, 23 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/read/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cara Membaca data di R</title>
+      <link>/software/2019-03-23-cara-membaca-data-di-r/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/software/2019-03-23-cara-membaca-data-di-r/</guid>
+      <description>Data yang telah tersedia di RSaat R terinstal, paket datasets yang terdiri atas banyak data set juga terinstal. Untuk mengakses data set tersebut perlu tahu nama dari file dari data yang diinginkan. Perintah:
+data()akan memunculkan daftar data set yang tersedia. Setelah tahu nama data set yang ingin digunakan, diantara tanda kurung dapat dituliskan nama data set. Misalnya, data yang cukup terkenal yaitu data iris yang terdiri atas 150 obyek.</description>
+    </item>
+    
+  </channel>
+</rss>

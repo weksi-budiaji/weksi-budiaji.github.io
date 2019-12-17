@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>validation on Bertutur Angka Berbicara Bahasa</title>
+    <link>/tags/validation/</link>
+    <description>Recent content in validation on Bertutur Angka Berbicara Bahasa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/validation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Medoid-based Shadow Value Validation and Visualization</title>
+      <link>/publikasi/2019-07-01-medoid-based/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publikasi/2019-07-01-medoid-based/</guid>
+      <description>Budiaji, W. 2019. Medoid-based Shadow Value Validation and Visualization. International Journal of Advances in Intelligent Informatics Vol. 5 (2), pp. 76-88. (Download)
+Alhamdulillah telah terbit makalah saya di International Journal of Advances in Intelligent Informatics. Makalah ini bercerita tentang metode validasi dan visualisasi hasil analisis cluster.
+Saya menggunakan metode simulasi untuk membuat metode validasi dan visualisasi hasil cluster berdasarkan pada medoid (cluster center). Karya saya ini bermanfaat untuk memvalidasi dan memvisualisasikan hasil analisis cluster.</description>
+    </item>
+    
+  </channel>
+</rss>

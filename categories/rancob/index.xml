@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rancob on Bertutur Angka Berbicara Bahasa</title>
+    <link>/categories/rancob/</link>
+    <description>Recent content in rancob on Bertutur Angka Berbicara Bahasa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Sat, 07 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/rancob/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Skala Pengukuran Variabel</title>
+      <link>/stat/2018-04-07-skala-variabel/</link>
+      <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/stat/2018-04-07-skala-variabel/</guid>
+      <description>Sewaktu mengadakan pengamatan, peneliti mengukur satu atau lebih karakteristik/ ciri dari objek penelitiannya, misalkan tinggi tanaman, berat ikan, tingkat pendidikan petani, dll. Sesuatu yang dapat diukur, dikontrol, dan dimanipulasi/ disimulasi dalam penelitian adalah Variabel . Variabel dapat diungkapkan dalam bentuk bilangan yang berupa penggolongan (nominal), penataan (ordinal), penggolongan dan penataan yang berjarak sama (interval) atau penggolongan dan penataan yang berskala (rasio).
+NominalSkala nominal bukan skala yang sebenarnya karena nominal hanya memberi label saja.</description>
+    </item>
+    
+    <item>
+      <title>Rancangan Percobaan</title>
+      <link>/rancob/2017-02-17-rancangan-percobaan/</link>
+      <pubDate>Sun, 12 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/rancob/2017-02-17-rancangan-percobaan/</guid>
+      <description>Rancangan percobaan/ design of experiments (DOE) perlu dibuat sebelum melakukan percobaan baik di lapangan maupun di laboratorium. Tujuan utama dari percobaan adalah untuk menduga sesuatu sehingga dibutuhkan penduga yang tidak bias dan ragam yang rendah (atau presisi yang tinggi), dengan kata lain untuk menguji hipotesis. DOE yang efektif lebih membutuhkan pemikiran yang baik tentang bidang penerapan dari DOE tersebut dibandingkan dengan perhitungan matematis dari DOE.
+Sebuah kebenaran umum bahwa DOE yang dirancang dengan baik membutuhkan analisis statistika yang lebih sederhana daripada DOE yang dirancang dengan kurang baik.</description>
+    </item>
+    
+  </channel>
+</rss>

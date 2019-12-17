@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>partitioning on Bertutur Angka Berbicara Bahasa</title>
+    <link>/tags/partitioning/</link>
+    <description>Recent content in partitioning on Bertutur Angka Berbicara Bahasa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/partitioning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Simple K-Medoids Partitioning Algorithm for Mixed Variable Data</title>
+      <link>/publikasi/2019-08-01-k-medoids/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publikasi/2019-08-01-k-medoids/</guid>
+      <description>Budiaji, W., Leisch, F. 2019. Simple K-Medoids Partitioning Algorithm for Mixed Variable Data. Algorithms Vol. 12, 177. (Download)
+Alhamdulillah telah terbit makalah kami di jurnal Algorithms. Makalah ini bercerita tentang metode clustering untuk data yang mempunyai variabel bertipe campuran: numerical, categorical, dan binary.
+Kami menggunakan metode simulasi untuk mengaplikasikan metode k-medoids yang bermanfaat untuk clustering pada data bertipe campuran. Karya kami ini juga mengembangkan konsep jarak untuk variable yang bertipe campuran yang tidak terbatas pada jarak “Gower” saja.</description>
+    </item>
+    
+  </channel>
+</rss>

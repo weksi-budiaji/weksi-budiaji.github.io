@@ -6,10 +6,21 @@
     <description>Recent content in Publikasi on Bertutur Angka Berbicara Bahasa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
-    <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/publikasi/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Simple K-Medoids Partitioning Algorithm for Mixed Variable Data</title>
+      <link>/publikasi/2019-08-01-k-medoids/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publikasi/2019-08-01-k-medoids/</guid>
+      <description>Budiaji, W., Leisch, F. 2019. Simple K-Medoids Partitioning Algorithm for Mixed Variable Data. Algorithms Vol. 12, 177. (Download)
+Alhamdulillah telah terbit makalah kami di jurnal Algorithms. Makalah ini bercerita tentang metode clustering untuk data yang mempunyai variabel bertipe campuran: numerical, categorical, dan binary.
+Kami menggunakan metode simulasi untuk mengaplikasikan metode k-medoids yang bermanfaat untuk clustering pada data bertipe campuran. Karya kami ini juga mengembangkan konsep jarak untuk variable yang bertipe campuran yang tidak terbatas pada jarak “Gower” saja.</description>
+    </item>
     
     <item>
       <title>Medoid-based Shadow Value Validation and Visualization</title>

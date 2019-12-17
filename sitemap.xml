@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/2019/12/17/halaman-pengumuman/</loc>
+    <lastmod>2019-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publikasi/2019-08-01-k-medoids/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publikasi/2019-07-01-medoid-based/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
@@ -30,11 +40,6 @@
   <url>
     <loc>/software/2019-03-02-dasar-dan-tipe-variabel-di-r/</loc>
     <lastmod>2019-03-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2018/10/09/halaman-pengumuman/</loc>
-    <lastmod>2018-10-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -170,12 +175,12 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -185,7 +190,7 @@
   
   <url>
     <loc>/publikasi/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -281,7 +286,7 @@
   
   <url>
     <loc>/tags/cluster/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -306,6 +311,12 @@
   <url>
     <loc>/tags/deskriptif/</loc>
     <lastmod>2017-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/distance/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -378,6 +389,12 @@
   <url>
     <loc>/tags/internal-criteria/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/k-medoids/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -484,6 +501,12 @@
   </url>
   
   <url>
+    <loc>/tags/mixed-variable-data/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/mixtex/</loc>
     <lastmod>2016-04-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -516,6 +539,12 @@
   <url>
     <loc>/tags/parameter/</loc>
     <lastmod>2016-10-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/partitioning/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -587,13 +616,13 @@
   
   <url>
     <loc>/categories/post/</loc>
-    <lastmod>2018-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/publikasi/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

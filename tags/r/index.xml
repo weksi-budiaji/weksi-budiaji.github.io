@@ -1,93 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>R on Bertutur Angka Berbicara Bahasa</title>
-    <link>/tags/r/</link>
-    <description>Recent content in R on Bertutur Angka Berbicara Bahasa</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>id</language>
-    <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Penerapan Reproducible Research pada Rstudio dengan Bahasa R dan Paket Knitr</title>
-      <link>/publikasi/2019-06-01-penerapan-reproducible/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/publikasi/2019-06-01-penerapan-reproducible/</guid>
-      <description>Budiaji, W. 2019. Penerapan Reproducible Research pada Rstudio dengan Bahasa R dan Paket Knitr. Khazanah Informatika Vol. 5 (1), pp. 1-5. (Download)
-Alhamdulillah telah terbit makalah saya di Jurnal Khazanah Informatika. Makalah ini bercerita tentang reproducible research (penelitian yang dapat diulang) dengan menggunakan software R.
-Saya menggunakan metode simulasi untuk membuat teks, tabel, dan gambar yang dapat direproduksi ulang. Karya saya ini bermanfaat sebagai contoh penggunaan kode agar penelitian yang telah dilakukan dapat direproduksi ulang oleh orang lain.</description>
-    </item>
-    
-    <item>
-      <title>Manipulasi data frame di R</title>
-      <link>/software/2019-05-14-manipulasi-data-frame-di-r/</link>
-      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/software/2019-05-14-manipulasi-data-frame-di-r/</guid>
-      <description>Manipulasi data frameSalah satu kelas variabel di R adalah data frame. Kelas ini yang sering digunakan untuk dianalisis. Misalnya data iris dari paket base.
-data(&amp;quot;iris&amp;quot;)head(iris)## Sepal.Length Sepal.Width Petal.Length Petal.Width Species## 1 5.1 3.5 1.4 0.2 setosa## 2 4.9 3.0 1.4 0.2 setosa## 3 4.7 3.2 1.3 0.2 setosa## 4 4.6 3.1 1.5 0.2 setosa## 5 5.0 3.6 1.4 0.2 setosa## 6 5.</description>
-    </item>
-    
-    <item>
-      <title>Fungsi di R</title>
-      <link>/software/2019-04-20-fungsi-di-r/</link>
-      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/software/2019-04-20-fungsi-di-r/</guid>
-      <description>Fungsi yang tersedia di RPaket dasar R memiliki banyak fungsi yang dapat digunakan. Operasi matematika sederhana, misalnya, dapat dengan mudah dijalankan di R. Sebuah fungsi terdiri atas satu atau beberapa argumen. Bagaimana mengetahui penjelasan sebuah fungsi dapat menggunakan bantuan, misalnya fungsi untuk penjumlahan:
-?&amp;#39;+&amp;#39;Fungsi + digunakan untuk menjumlahkan dua vektor numerik.
-&amp;#39;+&amp;#39;(1,1)## [1] 2class(`+`)## [1] &amp;quot;function&amp;quot;(a &amp;lt;- seq(1,10, by = 2))## [1] 1 3 5 7 9(b &amp;lt;- seq(2, 100, length.</description>
-    </item>
-    
-    <item>
-      <title>Cara Membaca data di R</title>
-      <link>/software/2019-03-23-cara-membaca-data-di-r/</link>
-      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/software/2019-03-23-cara-membaca-data-di-r/</guid>
-      <description>Data yang telah tersedia di RSaat R terinstal, paket datasets yang terdiri atas banyak data set juga terinstal. Untuk mengakses data set tersebut perlu tahu nama dari file dari data yang diinginkan. Perintah:
-data()akan memunculkan daftar data set yang tersedia. Setelah tahu nama data set yang ingin digunakan, diantara tanda kurung dapat dituliskan nama data set. Misalnya, data yang cukup terkenal yaitu data iris yang terdiri atas 150 obyek.</description>
-    </item>
-    
-    <item>
-      <title>Operasi dasar dan tipe variabel di R</title>
-      <link>/software/2019-03-02-dasar-dan-tipe-variabel-di-r/</link>
-      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/software/2019-03-02-dasar-dan-tipe-variabel-di-r/</guid>
-      <description>Operasi dasarSoftware R dapat digunakan untuk menyelesaikan masalah dalam matematika misalnya penjumlahan, perkalian dan seterusnya. Penjumlahan dapat dilakukan dengan tanda operasi +, pengurangan adalah -, perkalian menggunakan *, dan pembagian berupa /. Berikut contohnya:
-Penjumlahan:
-1+1## [1] 2Pengurangan:
-5-4## [1] 1Perkalian:
-2*3## [1] 6Pembagian:
-9/3## [1] 3Operasi yang lain misalnya:
-Eksponen dengan menggunakan ^:
-3^2## [1] 9Akar bilangan dengan menggunakan sqrt:</description>
-    </item>
-    
-    <item>
-      <title>Cara mendownload dan menginstall software Rstudio (R editor)</title>
-      <link>/software/2016-07-03-download-rstudio/</link>
-      <pubDate>Sun, 03 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/software/2016-07-03-download-rstudio/</guid>
-      <description>Setelah R terinstal dengan benar di komputer, R dapat digunakan langsung. Kode-kode perintah dapat ditulis langsung di jendela console. Kelemahnya, setelah mengeksekusi kode perintah ini, pengubahan (editing) sangat tidak nyaman karena harus menggunakan tanda panah keatas baru diedit. Hal ini dapat diatasi dengan menggunakan jendela R editor.
-Jendela editor dapat di buka dengan membuka file &amp;gt; new script, kemudian akan muncul jendela R editor. Kode perintah dapat ditulis disini, penekanan tombol enter akan memberikan efek pergantian baris (enter di R console berarti eksekusi).</description>
-    </item>
-    
-    <item>
-      <title>Cara mendownload dan menginstal software R (Windows, Mac, dan Linux/ unix)</title>
-      <link>/software/2016-06-05-download-r-windows-unix-mac/</link>
-      <pubDate>Sun, 05 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/software/2016-06-05-download-r-windows-unix-mac/</guid>
-      <description>Saat ini, keseharian kita tidak dapat terlepas dari teknologi. Teknologi ini terus berkembang dengan tujuan untuk mempermudah pekerjaan manusia. Komputer salah satunya yang memberikan banyak kemudahan untuk kita termasuk dalam hal analisis data.
-Data yang sudah ada ditangan biasanya dianalisis terlebih dahulu sebelum ditampilkan dan sering kali kesimpulan-kesimpulan juga ditampilkan berdasarkan data, misalkan ditampilkan deskriptif statistik dan uji t. Untuk mempermudah analisis, software statistik dapat digunakan. Banyak software statistik yang ada, dari yang gratis hingga yang berbayar lisensi mahal tersedia.</description>
-    </item>
-    
-  </channel>
-</rss>

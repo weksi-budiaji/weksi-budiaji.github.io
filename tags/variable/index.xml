@@ -1,31 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>variable on Bertutur Angka Berbicara Bahasa</title>
-    <link>/tags/variable/</link>
-    <description>Recent content in variable on Bertutur Angka Berbicara Bahasa</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>id</language>
-    <lastBuildDate>Sat, 02 Mar 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/variable/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Operasi dasar dan tipe variabel di R</title>
-      <link>/software/2019-03-02-dasar-dan-tipe-variabel-di-r/</link>
-      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/software/2019-03-02-dasar-dan-tipe-variabel-di-r/</guid>
-      <description>Operasi dasarSoftware R dapat digunakan untuk menyelesaikan masalah dalam matematika misalnya penjumlahan, perkalian dan seterusnya. Penjumlahan dapat dilakukan dengan tanda operasi +, pengurangan adalah -, perkalian menggunakan *, dan pembagian berupa /. Berikut contohnya:
-Penjumlahan:
-1+1## [1] 2Pengurangan:
-5-4## [1] 1Perkalian:
-2*3## [1] 6Pembagian:
-9/3## [1] 3Operasi yang lain misalnya:
-Eksponen dengan menggunakan ^:
-3^2## [1] 9Akar bilangan dengan menggunakan sqrt:</description>
-    </item>
-    
-  </channel>
-</rss>
